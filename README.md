@@ -21,10 +21,10 @@
 
 ```php
 // One interface. Any provider.
-Fintech::payment()->initializeTransaction([...]);        // Paystack, Flutterwave, Monnify
-Fintech::bills()->payBill(['biller' => 'dstv', ...]);   // VTPass, BuyPower  
-Fintech::identity()->verifyBvn($bvn);                   // Dojah, Prembly
-Fintech::banking()->getAccountStatement($id);           // Mono
+NgFintech::payment()->initializeTransaction([...]);        // Paystack, Flutterwave, Monnify
+NgFintech::bills()->payBill(['biller' => 'dstv', ...]);   // VTPass, BuyPower  
+NgFintech::identity()->verifyBvn($bvn);                   // Dojah, Prembly
+NgFintech::banking()->getAccountStatement($id);           // Mono
 ```
 
 ---
